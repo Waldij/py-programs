@@ -80,6 +80,6 @@ def index_by_k(k):
 
 
 if __name__ == '__main__':
-    for i in range(1, 100000):
+    for i in range(1, 1000):
         assert who_is_next(i) == who_is_next_2(i), 'Решения расходятся на {}'.format(i)
     print(who_is_next_2(1000000000000000000000000000))
